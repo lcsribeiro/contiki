@@ -1,7 +1,9 @@
-CONTIKI_PROJECT=border-router
-all: $(CONTIKI_PROJECT) 
+#CONTIKI_PROJECT=border-router
+#all: $(CONTIKI_PROJECT) 
+all: border-router
 
 CONTIKI=../../..
+CFLAGS += -g
 
 #linker optimizations
 SMALL=1

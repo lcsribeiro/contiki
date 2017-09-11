@@ -1,4 +1,4 @@
-CONTIKI_PROJECT = hello-world
+CONTIKI_PROJECT = hello-world atividade3
 all: $(CONTIKI_PROJECT)
 
 CONTIKI = ../..

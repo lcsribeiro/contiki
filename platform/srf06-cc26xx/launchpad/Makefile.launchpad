@@ -4,6 +4,7 @@ CONTIKI_TARGET_DIRS += launchpad common
 
 BOARD_SOURCEFILES += sensor-common.c bmp-280-sensor.c board-i2c.c
 BOARD_SOURCEFILES += board.c launchpad-sensors.c leds-arch.c button-sensor.c
+BOARD_SOURCEFILES += w5500.c socket.c usci.c util.c
 BOARD_SOURCEFILES += ext-flash.c board-spi.c
 
 

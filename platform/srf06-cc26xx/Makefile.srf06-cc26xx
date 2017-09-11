@@ -6,7 +6,7 @@ endif
 
 ### Board and BSP selection
 ifeq ($(BOARD),)
-  BOARD=srf06/cc26xx
+  BOARD=launchpad/CC2650
 endif
 
 CONTIKI_TARGET_DIRS += .

@@ -1,6 +1,6 @@
-all: udp-client udp-server
+all: Sensores
 CONTIKI=../../..
-
+CFLAGS += -g
 CFLAGS += -DPROJECT_CONF_H=\"project-conf.h\"
 
 ifdef WITH_COMPOWER
